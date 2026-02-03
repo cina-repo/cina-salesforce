@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>id__c</fields>
+    <fields>MM_ALUMNO__c</fields>
+    <fields>MM_ANO__c</fields>
+    <fields>MM_CURSO__c</fields>
+    <fields>MM_NIVEL__c</fields>
+    <fields>MM_ORDINAL__c</fields>
+    <fields>MM_FECPRE__c</fields>
+    <fields>MM_FECMAT__c</fields>
+    <fields>MM_IMPORTE__c</fields>
+    <label>Custom Compact Layout</label>
+</CompactLayout>

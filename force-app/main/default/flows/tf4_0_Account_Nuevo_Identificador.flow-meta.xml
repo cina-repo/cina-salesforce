@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <environments>Default</environments>
+    <formulas>
+        <name>fx_IdentificadorFinal</name>
+        <dataType>String</dataType>
+        <expression>IF(
+  {!$Record.RecordType.DeveloperName} = &quot;PersonAccount&quot;, 
+  &quot;SOC-&quot; &amp; {!$Record.Secuencial_Interno__c},
+  IF(
+    {!$Record.RecordType.DeveloperName} = &quot;No_Socio&quot;,
+    &quot;NOS-&quot; &amp; {!$Record.Secuencial_Interno__c},
+    &quot;GEN-&quot; &amp; {!$Record.Secuencial_Interno__c} /* Opcional: un genérico por si falla el tipo */
+  )
+)</expression>
+    </formulas>
+    <interviewLabel>tf4.0 Account Nuevo Identificador {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>tf4.0 Account Nuevo Identificador</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Actualizar_Account_Identificador</name>
+        <label>Actualizar Account Identificador</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <inputAssignments>
+            <field>Numero_Socio__c</field>
+            <value>
+                <elementReference>fx_IdentificadorFinal</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Actualizar_Account_Identificador</targetReference>
+        </connector>
+        <object>Account</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

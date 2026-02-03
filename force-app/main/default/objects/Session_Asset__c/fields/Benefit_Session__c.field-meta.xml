@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Benefit_Session__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Relation with Benefit Session</description>
+    <externalId>false</externalId>
+    <label>Benefit Session</label>
+    <referenceTo>BenefitSession</referenceTo>
+    <relationshipLabel>Session Assets</relationshipLabel>
+    <relationshipName>Session_Assets</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

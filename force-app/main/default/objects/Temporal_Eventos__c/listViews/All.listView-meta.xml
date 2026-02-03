@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>id__c</columns>
+    <columns>MA_NUMACT__c</columns>
+    <columns>MA_NOMBRE__c</columns>
+    <columns>MA_NOMLUG__c</columns>
+    <columns>MA_FECINI__c</columns>
+    <columns>MA_FECHAS_OK__c</columns>
+    <columns>Estado__c</columns>
+    <columns>Tipo_Error__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Estado__c</field>
+        <operation>equals</operation>
+        <value>Error</value>
+    </filters>
+    <label>All Records</label>
+</ListView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>CP_ANO__c</columns>
+    <columns>CP_ALUMNO__c</columns>
+    <columns>CP_IMPORTE__c</columns>
+    <columns>CP_TIPORI__c</columns>
+    <columns>CP_FECHA__c</columns>
+    <columns>CP_NUMORI__c</columns>
+    <columns>CP_MEDPAGO__c</columns>
+    <columns>Estado__c</columns>
+    <columns>Tipo_Error__c</columns>
+    <columns>Payment__c</columns>
+    <columns>Descriipcion_Error__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Estado__c</field>
+        <operation>equals</operation>
+        <value>Error</value>
+    </filters>
+    <label>All Records</label>
+</ListView>
