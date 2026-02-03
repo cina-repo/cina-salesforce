@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proceso__c</fullName>
+    <externalId>false</externalId>
+    <label>Proceso</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cursos</fullName>
+                <default>false</default>
+                <label>Cursos</label>
+            </value>
+            <value>
+                <fullName>Encuadramientos</fullName>
+                <default>false</default>
+                <label>Encuadramientos</label>
+            </value>
+            <value>
+                <fullName>Matriculas</fullName>
+                <default>false</default>
+                <label>Matriculas</label>
+            </value>
+            <value>
+                <fullName>Programas</fullName>
+                <default>false</default>
+                <label>Programas</label>
+            </value>
+            <value>
+                <fullName>Alumnos</fullName>
+                <default>false</default>
+                <label>Alumnos</label>
+            </value>
+            <value>
+                <fullName>Program Enrolment</fullName>
+                <default>false</default>
+                <label>Program Enrolment</label>
+            </value>
+            <value>
+                <fullName>Eventos</fullName>
+                <default>false</default>
+                <label>Eventos</label>
+            </value>
+            <value>
+                <fullName>Asistentes</fullName>
+                <default>false</default>
+                <label>Asistentes</label>
+            </value>
+            <value>
+                <fullName>Regatas</fullName>
+                <default>false</default>
+                <label>Regatas</label>
+            </value>
+            <value>
+                <fullName>Tripulaciones Regatas</fullName>
+                <default>false</default>
+                <label>Tripulaciones Regatas</label>
+            </value>
+            <value>
+                <fullName>Cesiones</fullName>
+                <default>false</default>
+                <label>Cesiones</label>
+            </value>
+            <value>
+                <fullName>Cuotas</fullName>
+                <default>false</default>
+                <label>Cuotas</label>
+            </value>
+            <value>
+                <fullName>Licencias</fullName>
+                <default>false</default>
+                <label>Licencias</label>
+            </value>
+            <value>
+                <fullName>Titulos</fullName>
+                <default>false</default>
+                <label>Titulos</label>
+            </value>
+            <value>
+                <fullName>Bautismos</fullName>
+                <default>false</default>
+                <label>Bautismos</label>
+            </value>
+            <value>
+                <fullName>Socios</fullName>
+                <default>false</default>
+                <label>Socios</label>
+            </value>
+            <value>
+                <fullName>Pagos</fullName>
+                <default>false</default>
+                <label>Pagos</label>
+            </value>
+            <value>
+                <fullName>Tripulaciones Cesiones</fullName>
+                <default>false</default>
+                <label>Tripulaciones Cesiones</label>
+            </value>
+            <value>
+                <fullName>Tripulaciones Bautismos</fullName>
+                <default>false</default>
+                <label>Tripulaciones Bautismos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

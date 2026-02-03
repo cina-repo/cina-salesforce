@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Detalle_Error__c</fullName>
+    <externalId>false</externalId>
+    <label>Detalle Error</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Socio No encontrado</fullName>
+                <default>false</default>
+                <label>Socio No encontrado</label>
+            </value>
+            <value>
+                <fullName>Actividad No Encontrada</fullName>
+                <default>false</default>
+                <label>Actividad No Encontrada</label>
+            </value>
+            <value>
+                <fullName>No encontradas ambos</fullName>
+                <default>false</default>
+                <label>No encontradas ambos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

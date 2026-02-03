@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>id__c</columns>
+    <columns>DA_NUMACT__c</columns>
+    <columns>DA_NUMTRP__c</columns>
+    <columns>DA_TIPALU__c</columns>
+    <columns>DA_ALUMNO__c</columns>
+    <columns>p_salesforce_id__c</columns>
+    <columns>DA_FECHAS__c</columns>
+    <columns>f0__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Records</label>
+</ListView>

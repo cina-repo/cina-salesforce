@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>EN_ALUMNO__c</columns>
+    <columns>EN_ANO__c</columns>
+    <columns>EN_CURSO__c</columns>
+    <columns>P_DDDKEY__c</columns>
+    <columns>EN_OCUPAC__c</columns>
+    <columns>EN_NIVMONI__c</columns>
+    <columns>Estado__c</columns>
+    <columns>TipodeError__c</columns>
+    <columns>Descripcion_del_Error__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>TipodeError__c</field>
+        <operation>equals</operation>
+        <value>No Encontrado</value>
+    </filters>
+    <filters>
+        <field>Estado__c</field>
+        <operation>equals</operation>
+        <value>Error</value>
+    </filters>
+    <filters>
+        <field>Descripcion_del_Error__c</field>
+        <operation>notEqual</operation>
+        <value>No Encontrado Socio</value>
+    </filters>
+    <label>All Records</label>
+</ListView>

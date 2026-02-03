@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>id__c</columns>
+    <columns>BA_LUGAR__c</columns>
+    <columns>BA_NUMBAU__c</columns>
+    <columns>BA_FECHA__c</columns>
+    <columns>BA_TURNO__c</columns>
+    <columns>BA_NIVEL__c</columns>
+    <columns>DDDKEY__c</columns>
+    <columns>Estado__c</columns>
+    <columns>Tipo_Error__c</columns>
+    <columns>Benefit__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Estado__c</field>
+        <operation>equals</operation>
+        <value>Procesado</value>
+    </filters>
+    <label>All Records</label>
+</ListView>
