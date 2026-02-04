@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "SF: Retrieve (manifest) from prepro",
+      "type": "shell",
+      "command": "sf project retrieve start --target-org prepro --manifest manifest/package.xml",
+      "problemMatcher": []
+    },
+    {
+      "label": "SF: Deploy to prepro",
+      "type": "shell",
+      "command": "sf project deploy start --target-org prepro --ignore-conflicts --wait 30",
+      "problemMatcher": []
+    },
+    {
+      "label": "SF: Deploy to prepro (run local tests)",
+      "type": "shell",
+      "command": "sf project deploy start --target-org prepro --test-level RunLocalTests --ignore-conflicts --wait 30",
+      "problemMatcher": []
+    }
+  ]
+}
