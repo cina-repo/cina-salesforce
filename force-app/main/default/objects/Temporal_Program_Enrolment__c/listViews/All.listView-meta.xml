@@ -12,14 +12,9 @@
     <columns>Program_Enrollment__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
-        <field>Estado__c</field>
-        <operation>equals</operation>
-        <value>Procesado</value>
-    </filters>
-    <filters>
         <field>Entidad__c</field>
         <operation>equals</operation>
-        <value>Bautismos</value>
+        <value>Encuadramientos</value>
     </filters>
     <label>All Records</label>
 </ListView>

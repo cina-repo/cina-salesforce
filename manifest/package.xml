@@ -18,5 +18,7 @@
   <types><members>*</members><name>NamedCredential</name></types>
   <types><members>*</members><name>AuthProvider</name></types>
   <types><members>*</members><name>ConnectedApp</name></types>
+  <types><members>*</members><name>OmniScript</name></types>
+  <types><members>*</members><name>EmailTemplate</name></types>
   <version>60.0</version>
 </Package>

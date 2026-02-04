@@ -13,10 +13,5 @@
     <columns>Benefit__c</columns>
     <columns>LAST_UPDATE</columns>
     <filterScope>Everything</filterScope>
-    <filters>
-        <field>Tipo_Error__c</field>
-        <operation>equals</operation>
-        <value>No encontrado</value>
-    </filters>
     <label>All Records</label>
 </ListView>
